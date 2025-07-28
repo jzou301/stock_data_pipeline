@@ -13,5 +13,4 @@ This project is a Python-based pipeline designed to ingest, process, and analyze
 
 ## Technologies Used  
 - Python (pandas, NumPy, yFinance, QuantLib, SQLite, multithreading)  
-- SQLite database for data storage  
-- Additional libraries: SQLAlchemy for database interaction  
+- SQLite database for data storage and database interaction  
