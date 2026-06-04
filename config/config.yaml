@@ -1,0 +1,17 @@
+database:
+  name: 'PORTFOLIO_SNAPS'
+  connection_string: 'sqlite:///PORTFOLIO_SNAPS.db'
+
+data_sources:
+  start_date: '2019-12-31'
+  beta_start_date: '2016-11-01'
+  
+processing:
+  max_workers: 5
+  retry_attempts: 3
+  retry_delay: 2
+
+logging:
+  level: 'INFO'
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file: 'logs/pipeline.log'

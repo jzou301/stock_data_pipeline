@@ -1,0 +1,6 @@
+pandas==2.2.3
+numpy==2.0.2
+yfinance==0.2.63
+QuantLib==1.36
+xlwings==0.33.15
+scikit-learn==1.6.0
